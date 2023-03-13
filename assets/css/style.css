@@ -1,0 +1,198 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans&display=swap');
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h1, h3, h4 {
+    color: blue;
+}
+
+/* Structural CSS */
+
+.text-left {
+    text-align: left;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier Prime', mono;
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.col-50 {
+    width: 500%
+}
+
+.left-column {
+    float: left;
+}
+
+.right-column {
+    float right;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.section {
+    padng: 10px
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+/* Navigation */
+
+#nav {
+    font-size: 1.5rem;
+    height: 40px;
+}
+
+.nav-list-wrapper {
+    position: relative;
+}
+#nav a:hover {
+    text-deration: underline;
+}
+
+/* Header */
+#header h1 {
+    font-size: 3rem
+}
+
+#header p {
+    font-size: 1.5rem;
+}
+
+
+#about, #contact {
+    clear: both;
+    background: ;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+#list {
+    margin-left: 30px;
+}
+
+th, td {
+    border-bottom: 1%;
+    padding: 10px;
+}
+
+table {
+    margin-left: 30px;
+}
+
+labl {
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+iput {
+    heiht: 30px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: bl
+}
+
+#contact i {
+    font-size: xx-large
+}
+
+#contact ul {
+    padding: 0;
+}
+
+#contact li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact a:hover {
+    color: green;
+}
+
+#nav #logo {
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 980px) {
+    .col-50 {
+        width: 100%
+    }
+
+    #nav li {
+        clear: both;
+        float:left;
+        textt-align: left;
+        display: block;
+    }
+
+    #nav {
+        height: 120px;
+    }
+
+    #right-column {
+        margin-bottom: 100px;
+    }
+
+    .about {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    #list {
+        margin: 0;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+}
