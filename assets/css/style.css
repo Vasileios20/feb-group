@@ -44,7 +44,7 @@ h3 {
 .w100 {
     width: 100%;
 }
-
+/* typo fix padng: to padding: */
 .section {
     padding: 10px
 }
