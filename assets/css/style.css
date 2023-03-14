@@ -9,7 +9,7 @@ h2 {
 h1,
 h3,
 h4 {
-    color: blue;
+    color: #855252;
 }
 
 /* Structural CSS */
@@ -81,7 +81,7 @@ h3 {
 #about,
 #contact {
     clear: both;
-    background-color: grey;
+    background-color: rgb(58, 150, 118);
     color: white;
     font-weight: normal;
     padding-bottom: 1rem;
@@ -146,7 +146,7 @@ input {
 }
 
 #contact a:hover {
-    color: green;
+    color: rgb(3, 75, 184);
 }
 
 #nav #logo {
