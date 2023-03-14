@@ -32,8 +32,7 @@ body {
 h3 {
     font-size: 1.5rem;
 }
-/* changed the width from 100% to 49% so the float from            
-".left-column" and ".right-column" could be applied */
+/* changed the width from 100% to 49% so the float from ".left-column" and ".right-column" could be applied */
 .col-50 {
     width: 49%;
     
