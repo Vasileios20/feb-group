@@ -11,6 +11,31 @@ h3,
 h4 {
     color: #855252;
 }
+/* gave the image height and padding */
+#main-img{
+    height: 630px;
+    padding-top: 110px;
+
+    /* animates main image on page loading, The code to create the zoom effect was taken from the CI Love Running Project. */
+
+   animation-name: main-img-zoom;
+   animation-duration: 5s;
+   animation-direction: forwards;
+
+}
+
+/* creates the level of zoom for main image */
+
+@keyframes main-img-zoom {
+   from {
+       transform: scale(1);
+   }
+
+   to {
+       transform: scale(1.1);
+   }
+}
+
 
 /* Structural CSS */
 
@@ -28,9 +53,10 @@ body {
 h3 {
     font-size: 1.5rem;
 }
-/* changed the width from 500% to 100% */
+/* changed the width from 100% to 49% so the float from git ".left-column" and ".right-column" could be applied */
 .col-50 {
-    width: 100%
+    width: 49%;
+    
 }
 
 .left-column {
@@ -158,10 +184,24 @@ input {
 
 /* Media queries */
 
+/* resized height and padding for mobile view */
 @media screen and (max-width: 980px) {
-    .col-50 {
-        width: 100%
+    #main-img{
+        height: 370px;
+        padding-top: 0;
     }
+
+/* resized margin for mobile view */
+    .right-column {
+        margin-top: 1%;
+    }
+
+    .col-50 {
+        width: 100%;
+        
+    }
+
+    
 /* fix typo textt-align to text-align */
     #nav li {
         clear: both;
