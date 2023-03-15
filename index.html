@@ -25,8 +25,9 @@
 
     <header id="header" class="section">
         <div class="left-column col-50">
-            <!-- Image taken from https://www.pexels.com/ -->
-            <img src="assets/img/" class="w100" alt="what's an alt">
+            <!-- Image taken from https://www.pexels.com/ 
+            gave an id to image to resize in the css file-->
+            <img id="main-img" src="assets/css/images/pexels-mizuno-k-12899158.jpg" class="w100" alt="A man writing code on a laptop">
         </div>
         <div class="right-column col-50 text-center mt-5">
             <h1>[Insert Theme Here]</h1>
@@ -46,7 +47,7 @@
                 <p>stuff:</p>
                 <ul>
                     <li>sit amet consectetur adipisicing</li>
-                    <liii>sit amet </li>
+                    <li>sit amet </li>
                     <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                     <li>repellendus. Commodi autem qui repellendus</li>
                     <li>blanditiis molestiae assumenda numquam, cumque soluta</li>
@@ -80,18 +81,22 @@
             <h2>Sign up!</h2>
             <h3>. Quos accusamus expedita, odit modi sed sequi!</h3>
 
-            <form>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
                 <div>
-                    <label for="name_odit">odit modi sed</label>
-                    <input type="text" id="name_odit" name="name_child" required>
+                    <label for="name_odit">First Name</label>
+                    <input type="text" id="name_odit" name="name_child" placeholder="John" required>
                 </div>
                 <div>
-                    <label for="name_at">odit modi sed</label>
-                    <input type="text" id="name_at" name="name_at" required>
+                    <label for="name_at">Last Name</label>
+                    <input type="text" id="name_at" name="name_at" placeholder="Smith" required>
                 </div>
                 <div>
-                    <label for="email">odit modi sed</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="JohnSmith@ci.net" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>>
                 </div>
                 <button type="submit">Go</button>
 

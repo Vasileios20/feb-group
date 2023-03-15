@@ -6,19 +6,25 @@ h2 {
     font-size: 2.5rem;
 }
 
-h1, h3, h4 {
-    color: blue;
+h1,
+h3,
+h4 {
+    color: #855252;
 }
-
+/* gave the image height and padding */
+#main-img{
+    height: 630px;
+    padding-top: 110px;
+}
 /* Structural CSS */
 
 .text-left {
     text-align: left;
 }
-
+/* change padding 0 to 3% */
 body {
-    padding: 0;
-    margin: 0;
+    padding: 3%;
+    margin: 0%;
     font-family: 'Courier Prime', mono;
     font-size: 1.3rem;
 }
@@ -26,9 +32,10 @@ body {
 h3 {
     font-size: 1.5rem;
 }
-
+/* changed the width from 100% to 49% so the float from git ".left-column" and ".right-column" could be applied */
 .col-50 {
-    width: 500%
+    width: 49%;
+    
 }
 
 .left-column {
@@ -36,20 +43,21 @@ h3 {
 }
 
 .right-column {
-    float right;
+    float: right;
 }
 
 .w100 {
     width: 100%;
 }
-
+/* typo fix padng: to padding: */
 .section {
-    padng: 10px
+    padding: 10px
 }
 
 .mt-5 {
     margin-top: 5rem;
 }
+
 /* Navigation */
 
 #nav {
@@ -60,8 +68,9 @@ h3 {
 .nav-list-wrapper {
     position: relative;
 }
+
 #nav a:hover {
-    text-deration: underline;
+    text-decoration: underline;
 }
 
 /* Header */
@@ -73,10 +82,11 @@ h3 {
     font-size: 1.5rem;
 }
 
-
-#about, #contact {
+/* fix #about #contact{ typo background property to background-color and gave it a color value of grey "note that the value for the background-color property was empty so i picked grey "*/
+#about,
+#contact {
     clear: both;
-    background: ;
+    background-color: rgb(58, 150, 118);
     color: white;
     font-weight: normal;
     padding-bottom: 1rem;
@@ -86,7 +96,8 @@ h3 {
     margin-left: 30px;
 }
 
-th, td {
+th,
+td {
     border-bottom: 1%;
     padding: 10px;
 }
@@ -94,16 +105,16 @@ th, td {
 table {
     margin-left: 30px;
 }
-
-labl {
+/* fix typo labl to label */
+label {
     display: block;
     margin-top: 20px;
     font-weight: normal;
     font-size: 1.2rem;
 }
-
-iput {
-    heiht: 30px;
+/* fix typo iput to input and heiht to height*/
+input {
+    height: 30px;
     width: 300px;
     margin-top: 10px;
     font-size: 1.2rem;
@@ -115,10 +126,10 @@ iput {
     list-style-type: none;
     margin-right: 30px;
 }
-
+/* fix typo color:bl to blue */
 #nav a {
     text-decoration: none;
-    color: bl
+    color: blue
 }
 
 #contact i {
@@ -140,7 +151,7 @@ iput {
 }
 
 #contact a:hover {
-    color: green;
+    color: rgb(3, 87, 184);
 }
 
 #nav #logo {
@@ -156,11 +167,11 @@ iput {
     .col-50 {
         width: 100%
     }
-
+/* fix typo textt-align to text-align */
     #nav li {
         clear: both;
-        float:left;
-        textt-align: left;
+        float: left;
+        text-align: left;
         display: block;
     }
 
