@@ -163,10 +163,24 @@ input {
 
 /* Media queries */
 
+/* resized height and padding for mobile view */
 @media screen and (max-width: 980px) {
-    .col-50 {
-        width: 100%
+    #main-img{
+        height: 370px;
+        padding-top: 0;
     }
+
+/* resized margin for mobile view */
+    .right-column {
+        margin-top: 1%;
+    }
+
+    .col-50 {
+        width: 100%;
+        
+    }
+
+    
 /* fix typo textt-align to text-align */
     #nav li {
         clear: both;
