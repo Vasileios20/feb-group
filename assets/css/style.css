@@ -15,7 +15,28 @@ h4 {
 #main-img{
     height: 630px;
     padding-top: 110px;
+
+    /* animates main image on page loading, The code to create the zoom effect was taken from the CI Love Running Project. */
+
+   animation-name: main-img-zoom;
+   animation-duration: 5s;
+   animation-direction: forwards;
+
 }
+
+/* creates the level of zoom for main image */
+
+@keyframes main-img-zoom {
+   from {
+       transform: scale(1);
+   }
+
+   to {
+       transform: scale(1.1);
+   }
+}
+
+
 /* Structural CSS */
 
 .text-left {
